@@ -1,6 +1,10 @@
 
 # Change Log
 
+## 1.7.1 - 2020-09-22
+
+- New stuff
+
 ## 1.7.0 - 2020-08-19
 
 - Add Python 3.8 support
