@@ -67,7 +67,6 @@ def copy_assets(url, assets):
             )
 
 
-
 def git_tag(tag, sha=None):
     ''' Add a tag '''
     cmd = ['git', 'tag', tag]
