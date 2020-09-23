@@ -1,6 +1,10 @@
 
 # Change Log
 
+## 1.7.2 - 2020-09-23
+
+- More new stuff
+
 ## 1.7.1 - 2020-09-22
 
 - New stuff
