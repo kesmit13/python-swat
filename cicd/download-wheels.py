@@ -18,7 +18,8 @@ def main(args):
     os.makedirs(args.dir, exist_ok=True)
 
     txt = urlopen(args.url).read().decode('utf-8')
-    whls = re.findall(r'href=[\'"](.+?/swat-{}(?:-\d+)?-.+?\.whl)'.format(args.version), txt)
+    whls = re.findall(
+        r'href=[\'"](.+?/swat-{}(?:-\d+)?-.+?\.whl)'.format(args.version), txt)
     for whl in whls:
         url = urljoin(args.url, whl)
         print(url)
