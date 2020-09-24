@@ -169,6 +169,7 @@ def main(args):
 
     # Delete rc release
     delete_release(args.tag)
+    delete_release(args.tag.replace('-rc', '-snapshot'))
 
     return 0
 
