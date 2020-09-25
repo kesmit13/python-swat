@@ -8,6 +8,11 @@ What’s New
 
 This document outlines features and improvements from each release.
 
+1.7.3 (September 24, 2020)
+--------------------------
+
+-  Cool features
+
 1.7.2 (September 23, 2020)
 --------------------------
 
